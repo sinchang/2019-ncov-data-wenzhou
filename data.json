@@ -3,14 +3,18 @@
     "confirmedCount": 421,
     "seriousCount": 30,
     "curedCount": 36,
+    "deadCount": 0,
     "confirmedIncr": 25,
-    "couredIncr": 8
+    "curedIncr": 8,
+    "deadIncr": 0,
+    "seriousIncr": 0
   },
   "trend": {
     "2020-02-06": [
       {
         "areaName": "鹿城区",
         "confirmedIncr": 2,
+        "seriousIncr": 1,
         "confirmedCount": 58,
         "curedCount": 4,
         "seriousCount": 1
@@ -39,6 +43,7 @@
       {
         "areaName": "乐清市",
         "confirmedIncr": 10,
+        "seriousIncr": 3,
         "curedIncr": 6,
         "confirmedCount": 138,
         "curedCount": 12,
@@ -47,6 +52,7 @@
       {
         "areaName": "瑞安市",
         "confirmedIncr": 3,
+        "seriousIncr": 1,
         "confirmedCount": 67,
         "curedCount": 11,
         "seriousCount": 1
@@ -91,6 +97,7 @@
       {
         "areaName": "龙港市",
         "confirmedIncr": 0,
+        "seriousIncr": 1,
         "confirmedCount": 8,
         "curedCount": 0,
         "seriousCount": 0
@@ -134,7 +141,7 @@
       },
       {
         "areaName": "洞头区",
-        "confirmedIncr": 0,
+        "confirmedIncr": -1,
         "confirmedCount": 3,
         "curedCount": 0,
         "seriousCount": 0
@@ -197,7 +204,7 @@
       },
       {
         "areaName": "瓯江口产业集聚区",
-        "confirmedIncr": 0,
+        "confirmedIncr": 1,
         "confirmedCount": 1,
         "curedCount": 0,
         "seriousCount": 0
@@ -301,7 +308,7 @@
       {
         "areaName": "瓯江口产业集聚区",
         "confirmedIncr": 0,
-        "confirmedCount": 1,
+        "confirmedCount": 0,
         "curedCount": 0,
         "seriousCount": 0
       },

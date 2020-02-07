@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>新型冠状病毒疫情实时动态 · 温州</title>
+    <link
+      href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">新型冠状病毒疫情实时动态 · 温州</h1>
+          <p class="lead">截至时间: 2020-02-06</p>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card text-center">
+          <div class="card-body">
+            <p class="card-text">
+              <small class="text-muted"
+                >较昨日 + {{summary.confirmedIncr}}</small
+              >
+            </p>
+            <h5 class="card-title">{{summary.confirmedCount}}</h5>
+            <p class="card-text">确诊</p>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <p class="card-text">
+              <small class="text-muted">较昨日 + {{summary.seriousIncr}}</small>
+            </p>
+            <h5 class="card-title">{{summary.seriousCount}}</h5>
+            <p class="card-text">重症</p>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <p class="card-text">
+              <small class="text-muted">较昨日 + {{summary.curedIncr}}</small>
+            </p>
+            <h5 class="card-title">{{summary.curedCount}}</h5>
+            <p class="card-text">治愈</p>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <p class="card-text">
+              <small class="text-muted">较昨日 + {{summary.deadIncr}}</small>
+            </p>
+            <h5 class="card-title">{{summary.deadCount}}</h5>
+            <p class="card-text">死亡</p>
+          </div>
+        </div>
+      </div>
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">地区</th>
+            <th scope="col">确诊</th>
+            <th scope="col">重症</th>
+            <th scope="col">治愈</th>
+            <th scope="col">死亡</th>
+          </tr>
+        </thead>
+        <tbody v-for="(item, idx) in tableData" :key="idx">
+          <tr>
+            <th scope="row">{{item.areaName}}</th>
+            <td>{{item.confirmedCount}}</td>
+            <td>{{item.seriousCount}}</td>
+            <td>{{item.curedCount}}</td>
+            <td>{{item.deadCount}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+  <script src="https://www.jsdelivr.com/package/npm/echarts"></script>
+  <script src="./index.js"></script>
+</html>
