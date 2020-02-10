@@ -1,11 +1,11 @@
 {
   "summary": {
-    "confirmedCount": 464,
-    "seriousCount": 28,
-    "curedCount": 78,
+    "confirmedCount": 448,
+    "seriousCount": 27,
+    "curedCount": 70,
     "deadCount": 0,
-    "confirmedIncr": 16,
-    "curedIncr": 8,
+    "confirmedIncr": 21,
+    "curedIncr": 21,
     "deadIncr": 0,
     "seriousIncr": 0
   },
@@ -14,11 +14,11 @@
       {
         "areaName": "鹿城区",
         "confirmedIncr": 2,
-        "seriousIncr": 1,
+        "seriousIncr": 0,
         "curedIncr": 2,
-        "confirmedCount": 63,
-        "curedCount": 10,
-        "seriousCount": 3
+        "confirmedCount": 61,
+        "curedCount": 8,
+        "seriousCount": 2
       },
       {
         "areaName": "龙湾区",
@@ -29,9 +29,9 @@
       },
       {
         "areaName": "瓯海区",
-        "confirmedIncr": 2,
+        "confirmedIncr": 0,
         "curedIncr": 0,
-        "confirmedCount": 33,
+        "confirmedCount": 31,
         "curedCount": 3,
         "seriousCount": 3
       },
@@ -44,30 +44,29 @@
       },
       {
         "areaName": "乐清市",
-        "confirmedIncr": 4,
-        "seriousIncr": 1,
-        "curedIncr": 2,
-        "confirmedCount": 155,
-        "curedCount": 23,
-        "seriousCount": 13
+        "confirmedIncr": 6,
+        "seriousIncr": -3,
+        "curedIncr": 4,
+        "confirmedCount": 151,
+        "curedCount": 21,
+        "seriousCount": 12
       },
       {
         "areaName": "瑞安市",
-        "confirmedIncr": 0,
+        "confirmedIncr": 1,
         "seriousIncr": 0,
-        "curedIncr": 1,
+        "curedIncr": 13,
         "confirmedCount": 71,
-        "curedCount": 29,
+        "curedCount": 28,
         "seriousCount": 1
       },
       {
         "areaName": "永嘉县",
-        "confirmedIncr": 2,
-        "seriousIncr": -1,
-        "curedIncr": 2,
-        "confirmedCount": 46,
-        "curedCount": 7,
-        "seriousCount": 5
+        "confirmedIncr": 1,
+        "curedIncr": 0,
+        "confirmedCount": 44,
+        "curedCount": 5,
+        "seriousCount": 6
       },
       {
         "areaName": "文成县",
@@ -80,23 +79,22 @@
       {
         "areaName": "平阳县",
         "confirmedIncr": 0,
-        "curedIncr": 1,
         "confirmedCount": 30,
-        "curedCount": 2,
+        "curedCount": 1,
         "seriousCount": 1
       },
       {
         "areaName": "泰顺县",
-        "confirmedIncr": 6,
-        "curedIncr": 0,
-        "confirmedCount": 16,
+        "confirmedIncr": 0,
+        "curedIncr": 2,
+        "confirmedCount": 10,
         "curedCount": 2,
         "seriousCount": 0
       },
       {
         "areaName": "苍南县",
         "confirmedIncr": 0,
-        "seriousIncr": 0,
+        "seriousIncr": -1,
         "confirmedCount": 9,
         "curedCount": 0,
         "seriousCount": 0
