@@ -1,11 +1,11 @@
 {
   "summary": {
-    "confirmedCount": 448,
-    "seriousCount": 27,
-    "curedCount": 70,
+    "confirmedCount": 464,
+    "seriousCount": 28,
+    "curedCount": 78,
     "deadCount": 0,
-    "confirmedIncr": 21,
-    "curedIncr": 21,
+    "confirmedIncr": 16,
+    "curedIncr": 8,
     "deadIncr": 0,
     "seriousIncr": 0
   },
