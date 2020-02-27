@@ -2,14 +2,137 @@
   "summary": {
     "confirmedCount": 504,
     "seriousCount": 10,
-    "curedCount": 306,
+    "curedCount": 317,
     "deadCount": 1,
     "confirmedIncr": 0,
-    "curedIncr": 14,
+    "curedIncr": 11,
     "deadIncr": 0,
     "seriousIncr": 0
   },
   "trend": {
+    "2020-02-25": [
+      {
+        "areaName": "鹿城区",
+        "confirmedIncr": 0,
+        "seriousIncr": 0,
+        "curedIncr": 1,
+        "confirmedCount": 68,
+        "curedCount": 31,
+        "seriousCount": 3
+      },
+      {
+        "areaName": "龙湾区",
+        "confirmedIncr": 0,
+        "curedIncr": 0,
+        "confirmedCount": 18,
+        "curedCount": 9,
+        "seriousCount": 0
+      },
+      {
+        "areaName": "瓯海区",
+        "confirmedIncr": 0,
+        "curedIncr": 2,
+        "seriousIncr": 0,
+        "confirmedCount": 36,
+        "curedCount": 15,
+        "seriousCount": 1
+      },
+      {
+        "areaName": "洞头区",
+        "confirmedIncr": 0,
+        "curedIncr": 0,
+        "confirmedCount": 5,
+        "curedCount": 2,
+        "seriousCount": 0
+      },
+      {
+        "areaName": "乐清市",
+        "confirmedIncr": 0,
+        "seriousIncr": 0,
+        "curedIncr": 2,
+        "confirmedCount": 170,
+        "curedCount": 120,
+        "seriousCount": 4
+      },
+      {
+        "areaName": "瑞安市",
+        "confirmedIncr": 0,
+        "seriousIncr": 0,
+        "curedIncr": 0,
+        "confirmedCount": 74,
+        "curedCount": 62,
+        "seriousCount": 0
+      },
+      {
+        "areaName": "永嘉县",
+        "confirmedIncr": 0,
+        "seriousIncr": 0,
+        "curedIncr": 1,
+        "deadIncr": 0,
+        "confirmedCount": 52,
+        "curedCount": 31,
+        "seriousCount": 1,
+        "deadCount": 1
+      },
+      {
+        "areaName": "文成县",
+        "confirmedIncr": 0,
+        "curedIncr": 1,
+        "seriousIncr": 0,
+        "confirmedCount": 11,
+        "curedCount": 3,
+        "seriousCount": 0
+      },
+      {
+        "areaName": "平阳县",
+        "confirmedIncr": 0,
+        "curedIncr": 2,
+        "seriousIncr": 0,
+        "confirmedCount": 30,
+        "curedCount": 24,
+        "seriousCount": 0
+      },
+      {
+        "areaName": "泰顺县",
+        "confirmedIncr": 0,
+        "curedIncr": 1,
+        "confirmedCount": 20,
+        "curedCount": 6,
+        "seriousCount": 0
+      },
+      {
+        "areaName": "苍南县",
+        "confirmedIncr": 0,
+        "seriousIncr": 0,
+        "curedIncr": 1,
+        "confirmedCount": 9,
+        "curedCount": 7,
+        "seriousCount": 0
+      },
+      {
+        "areaName": "龙港市",
+        "confirmedIncr": 0,
+        "seriousIncr": 0,
+        "curedIncr": 0,
+        "confirmedCount": 9,
+        "curedCount": 6,
+        "seriousCount": 1
+      },
+      {
+        "areaName": "瓯江口产业集聚区",
+        "confirmedIncr": 0,
+        "confirmedCount": 1,
+        "curedCount": 0,
+        "seriousCount": 0
+      },
+      {
+        "areaName": "浙南产业集聚区",
+        "confirmedIncr": 0,
+        "confirmedCount": 1,
+        "curedCount": 1,
+        "seriousCount": 0
+      }
+    ],
     "2020-02-24": [
       {
         "areaName": "鹿城区",
